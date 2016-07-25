@@ -7,6 +7,8 @@ Social Buttons made in pure CSS based on
 
 [Check the live demo!](github.ibm.com/pages/dswb/bootstrap-social)
 
+Extended from [lipis/bootstrap-social](https://github.com/lipis/bootstrap-social)
+
 Installation
 ------------
 
