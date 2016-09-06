@@ -9,7 +9,13 @@ $(function () {
     if ($(this).data("icon")) {
       icon_name = $(this).data("icon");
     }
-    var icon = "<i class='fa fa-" + icon_name + "'></i>";
+
+    if (icon_name === 'bdu') {
+      var icon = "<img src='assets/img/bdu.svg'>";
+    } else {
+      var icon = "<i class='fa fa-" + icon_name + "'></i>";
+    }
+
     $('.btn-social', '.social-sizes').html(icon + "Sign in with " + $(this).data("name"));
     $('.btn-social-icon', '.social-sizes').html(icon);
     $('.btn', '.social-sizes').removeClass(all_classes);
